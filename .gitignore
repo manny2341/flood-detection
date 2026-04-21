@@ -1,0 +1,40 @@
+
+# ── Python & environment ──────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+*.egg-info/
+venv/
+env/
+
+# ── ML model files (large binaries — private) ─────────────────────────────────
+*.pkl
+*.h5
+*.keras
+*.pt
+*.pth
+*.hdf5
+*.npy
+*.npz
+*.onnx
+*.tflite
+
+# ── Datasets (private) ────────────────────────────────────────────────────────
+*.csv
+*.xlsx
+*.parquet
+*.json
+data/
+datasets/
+
+# ── Satellite imagery ─────────────────────────────────────────────────────────
+*.tif
+*.tiff
+
+# ── Generated output images / charts ─────────────────────────────────────────
+outputs/
+results/
+charts/
+figures/
+
